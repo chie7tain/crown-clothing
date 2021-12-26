@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./homepage.styles.sass";
 function Homepage() {
   return (
     <div className="homepage">
@@ -13,6 +13,12 @@ function Homepage() {
         <div className="menu-item">
           <div className="content">
             <h1 className="title">JACKETS</h1>
+            <span className="title">SHOP NOW</span>
+          </div>
+        </div>
+        <div className="menu-item">
+          <div className="content">
+            <h1 className="title">SNEAKERS</h1>
             <span className="title">SHOP NOW</span>
           </div>
         </div>
